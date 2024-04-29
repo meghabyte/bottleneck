@@ -19,9 +19,10 @@ If you find this repository useful, please cite:
 This repository includes code for all tasks, including user study interfaces and data. The four tasks we consider in our paper are: SelectSay, Maze, Builder, and Birds. 
 
 ## Dependencies & First Steps
+Our code requires the following packages: ``transformers==4.35.2, torch==2.0.1, torchvision==0.15.2``. For large language (+vision) model inference and fine-tuning we use services from https://replicate.com/ and https://www.together.ai/, and have put placeholders in this repository where an Authentication Key is required. 
 
 ## SelectSay
-We adapt the code for the SelectSay environment provided by https://github.com/hengyuan-hu/instruct-rl. If you use our code, please make sure to also cite:
+For the SelectSay environment, we adapt the code provided by https://github.com/hengyuan-hu/instruct-rl. If you use our code, please make sure to also cite:
 ```
 @inproceedings{hu2023instructrl,
     title = "Language Instructed Reinforcement Learning for Human-AI Coordination ",
