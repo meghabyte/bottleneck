@@ -1,0 +1,4 @@
+{"type": "reward", "step": 0, "mean": 1.7687151334617686}
+{"type": "rule", "step": 0, "output": "1.  Describe  the  bird's  color,  markings,  and  any  distinctive  features.\n 2.  Include  the  bird's  behavior  or  action,  such  as  perching,  flying,  or  standing."}
+{"type": "reward", "step": 1, "mean": 2.0543263480616925}
+{"type": "rule", "step": 1, "output": "1.  Describe  the  bird's  species  and  coloration  accurately.\n 2.  Include  details  about  the  bird's  actions,  such  as  flying,  perching,  or  standing."}

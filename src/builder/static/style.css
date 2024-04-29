@@ -1,0 +1,155 @@
+.button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:orange;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button:disabled {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:gray;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button:active {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:gray;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 10px;
+}
+.flex-child {
+    flex: 1;
+}
+.flex-child:first-child {
+    margin-right: 10px;
+}
+
+
+.button-div {
+    position:relative;
+    text-align:center;
+    top: 15px;
+}
+
+
+
+.form {
+    position: relative;
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 75px;
+}
+
+.canvas-title {
+    position: relative;
+    text-align:center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top:10px;
+}
+
+
+#description-number {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#description-counter {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#description-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+
+.student-canvas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:8px lavender solid;
+    position:relative;
+    left:0px;
+    top:10px;
+}
+
+.instructions-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:4px seagreen solid;
+    position:relative;
+    left:0px;
+    top:20px;
+    bottom:100px;
+    line-height: 1;
+}
+
+.feedback {
+    position: relative;
+    text-align:center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top:10px;
+}
+
+.score {
+    position: relative;
+    text-align:center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top:10px;
+}
+
+.image-caption {
+    position: relative;
+    text-align:center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top:10px;
+    color:seagreen;
+}
+
+.instructions {
+    position: relative;
+    text-align:left;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top:10px;
+    color:rgb(76, 75, 75);
+}
+
+.start-message {
+    position: relative;
+    text-align:center;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top:10px;
+}
+
+
+.flex-instructions {
+    margin-left: 10px;
+}
+
+.flex-image {
+    margin-top: 0px;
+    position: top;
+}
